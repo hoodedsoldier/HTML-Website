@@ -1,0 +1,111 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.showcase {
+    background-image:url("https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:800px;
+    margin:20px;
+    padding:20px;
+}
+
+nav {
+    float:right;
+    margin:20px;
+}
+
+header {
+    margin:10px;
+    min-height:25px;
+}
+
+.branding {
+    float:left;
+}
+
+h1 {
+    margin:10px;
+    padding:10px;
+}
+
+li {
+    display:inline;
+}
+
+a {
+    text-decoration:none;
+    color:grey;
+    text-align:center;
+    margin:10px;
+    font-size:19px;
+}
+
+a:hover {
+    transition:0.4s;
+    border-bottom:3px solid grey;
+}
+.left-section {
+    float:left;
+    width:55%;
+    margin:30px;
+}
+
+.right-section {
+    float:right;
+    width:40%;
+    background:grey;
+    color:white;
+    height:290px;
+    width:400px;
+}
+
+.left-section p {
+   margin:30px;
+   padding-top:20px;
+   margin:auto;
+}
+
+.right-section p {
+    font-size:19px;
+    padding:20px;
+    margin-top:20px;
+}
+
+.footer {
+    margin-top:350px;
+    text-align:center;
+}
+
+@media (max-width:1100px) {
+    .footer {
+        margin-top:700px;
+        text-align:center;
+    }
+
+    .left-section p {
+       
+    }
+}
+
+
+@media (max-width:800px) {
+    .left-section p {
+     margin-left:70px;
+     width:100%;
+    }
+    nav {
+        float:none;
+        text-align:center;
+    }
+    .branding {
+        float:none;
+        text-align:center;
+    }
+}
+
+
+
+Resources
